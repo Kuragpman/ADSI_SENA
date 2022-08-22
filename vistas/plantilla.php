@@ -48,8 +48,6 @@
 
 </head>
 
-
-
 <!--##########################################
          CUERPO DOCUMENTO
     ##########################################-->
@@ -58,21 +56,35 @@
 <!-- Site wrapper -->
 <div class="wrapper">
 
+<?php
 
-  <!-- =============================================== -->
+        /* CABZOTE */
+
+    include "modulos/cabezote.php";
+
+        /* MENU */
+
+    include "modulos/menu.php";
+
+        /* CONTENIDO */
+
+        include "modulos/contenido.php";
+
+          /* FOOTER */
+
+          include "modulos/footer.php";
 
 
 
- 
 
-  <!-- Control Sidebar -->
-  
+
+
+  ?>
+
 </div>
 <!-- ./wrapper -->
 
-
-
-<script src="js/plantilla.js"></script>
+<script src="vistas/js/plantilla.js"></script>
 
 </body>
 </html>
